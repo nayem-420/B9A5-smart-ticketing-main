@@ -8,11 +8,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-white">
     <header>
         <!-- Section for Navigation Bar -->
         <section>
-            <nav class="font-raleway font-medium">
+            <nav class="font-raleway font-medium mb-16">
                 <div class="navbar bg-base-100">
                     <div class="navbar-start">
                       <div class="dropdown">
@@ -53,33 +53,33 @@
                   <h1 class="card-title font-extrabold text-6xl flex-col">End-to-End Travel with
                     <span class="text-[#1DD100]">P Paribahan</span>
                   </h1>
-                  <p>Yes, you can run unit tests and view the results directly within the app. The <br>
+                  <p class="flex-col">Yes, you can run unit tests and view the results directly within the app. The <br class="items-center">
                     integrated testing features allow for a streamlined .</p>
                   <div class="card-actions justify-end">
                     <button class="btn btn-primary bg-[#1DD100] font-bold text-xl">Buy Tickets</button>
                   </div>
                   <div class="flex gap-4">
-                    <div class="flex bg-[#FFFFFF] rounded-2xl p-10">
+                    <div class="flex bg-[#FFFFFF] rounded-2xl p-10 gap-9">
                       <div><img src="images/people.png" alt=""></div>
-                      <div>
-                        <h3>500K+</h3>
-                        <p>Registered users</p>
+                      <div class="font-inter">
+                        <h3 class="font-bold text-4xl text-[#030712]">500K+</h3>
+                        <p class="font-normal text-lg text-[#03071299]">Registered users</p>
                       </div>
                     </div>
-                    <div class="flex bg-[#FFFFFF] rounded-2xl p-10">
+                    <div class="flex bg-[#FFFFFF] rounded-2xl p-10 gap-9">
                       <div>
                         <img src="images/ticket-cupon.png" alt="">
                       </div>
-                      <div>
-                        <h1>1.7 lacks</h1>
-                        <p>tickets sold</p>
+                      <div class="font-inter">
+                        <h1 class="font-bold text-4xl text-[#030712]">1.7 lacks</h1>
+                        <p class="font-normal text-lg text-[#03071299]">tickets sold</p>
                       </div>
                     </div>
-                    <div class="flex bg-[#FFFFFF] rounded-2xl p-10">
+                    <div class="flex bg-[#FFFFFF] rounded-2xl p-10 gap-9">
                         <div><img src="images/stoppage.png" alt=""></div>
-                        <div>
-                          <h1>80k+</h1>
-                          <p>Rental partner</p>
+                        <div class="font-inter">
+                          <h1 class="font-bold text-4xl text-[#030712]">80k+</h1>
+                          <p class="font-normal text-lg text-[#03071299]">Rental partner</p>
                         </div>
                     </div>
                   </div>
@@ -90,8 +90,42 @@
 
     <!-- Main section -->
     <main>
-        <section>
+      <!-- Best offers for you section -->
+      <div class="flex items-center justify-center mt-52">
+        <h1 class="text-[#030712] font-bold text-4xl">Best offers for you</h1>
+      </div>
+        <section class="flex gap-10 justify-center mt-6">
+          <!-- section for new 15 -->
+          <div class="w-4/12 h-52 border flex bg-[#FFBF0F] rounded-3xl">
+            <div class="p-12">
+              <h1 class="font-inter text-4xl font-bold text-[#030712CC]">15% OFF</h1>
+              <h4 class="font-inter text-[#030712CC] font-semibold text-xl">on your next purchase</h4>
+              <p class="font-inter font-medium text-lg text-[#03071280]">use by January 2024</p>
+            </div>
+            <div>
+              <img src="images/cupon-devider.png" alt="">
+            </div>
+            <div class="w-1/2 items-center flex flex-col justify-center">
+              <h3 class="font-raleway font-bold text-[#030712] text-xl mb-4">NEW15</h3>
+              <p class="text-[#03071266]">Coupon Code</p>
+            </div>
+          </div>
 
+          <!-- section for couple 20 -->
+          <div class="w-4/12 h-52 border flex bg-[#F78C9C] rounded-3xl">
+              <div class="p-12">
+                <h1 class="font-inter text-4xl font-bold text-[#030712CC]">20% OFF</h1>
+                <h4 class="font-inter text-[#030712CC] font-semibold text-xl">on your next purchase</h4>
+                <p class="font-inter font-medium text-lg text-[#03071280]">use by January 2024</p>
+              </div>
+              <div>
+                <img src="images/cupon-devider.png" alt="">
+              </div>
+              <div class="w-1/2 items-center flex flex-col justify-center">
+                <h3 class="font-raleway font-bold text-[#030712] text-xl mb-4">Couple 20</h3>
+                <p class="text-[#03071266]">Coupon Code</p>
+              </div>
+          </div>
         </section>
     </main>
 
